@@ -1,0 +1,45 @@
+.win-or-loss-or-draw-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.game-item-name {
+  margin: 30px;
+  color: #ffffff;
+}
+
+.game-item-button {
+  background-color: white;
+  color: #223a5f;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.each-player {
+}
+
+.player-header {
+  color: white;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+.each-player-choice {
+  height: 40vh;
+  width: 30vw;
+}
+
+@media (max-width: 768px) {
+  .each-player-choice {
+    height: 20vh;
+    width: 20vw;
+  }
+}
+

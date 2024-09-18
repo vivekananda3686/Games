@@ -1,0 +1,95 @@
+.rps-main-container {
+  background-color: #223a5f;
+  padding: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ffffff;
+  padding: 10px;
+}
+
+.header-titles {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.heading {
+  font-family: Roboto, sans-serif;
+}
+
+.score-para {
+  color: #223a5f;
+  background-color: #ffffff;
+  text-align: center;
+  min-height: 30px;
+  min-width: 30px;
+  max-width: 100px;
+  max-height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: Roboto, sans-serif;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.rules-button {
+  background-color: #ffffff;
+  color: #223a5f;
+  padding: 10px;
+  text-align: center;
+  border-width: 0px;
+}
+
+.popup-container {
+}
+
+.rules-image {
+  height: 100%;
+  width: 100%;
+}
+
+.trigger-button {
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  border-width: 0px;
+}
+
+.game-view-container {
+}
+
+.game-options-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.score {
+  font-family: Roboto, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .game-options-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,50 @@
+.rules-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 100vh;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.rules-bg-container {
+  background-image: linear-gradient(to Right, #9796f0, #fbc7d4);
+  padding: 100px;
+}
+
+.rules-start-button {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+}
+
+.rules-heading {
+  font-family: Bree Serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rules-back-arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rules-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rules-list-item {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.rules-image-style {
+  margin-right: 40px;
+}

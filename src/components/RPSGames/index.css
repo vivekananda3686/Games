@@ -1,0 +1,26 @@
+.game-item-name {
+  margin: 30px;
+}
+
+.game-image {
+  height: 40vh;
+  width: 30vw;
+}
+
+.game-button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .game-image {
+    height: 20vh;
+    width: 20vw;
+  }
+
+  .game-options-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
