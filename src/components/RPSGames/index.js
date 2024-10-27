@@ -10,14 +10,14 @@ const RPSGames = props => {
   }
 
   return (
-    <div>
+    <div className="games-main-container">
       <div className="game-item-name">
         <button
-          className="game-button"
           onClick={onClickUserChoice}
+          className="game-button"
           data-testid={name}
         >
-          <img className="game-image" src={imageUrl} alt={id} />
+          <img src={imageUrl} alt={id} className="game-image" />
         </button>
       </div>
     </div>

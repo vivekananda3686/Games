@@ -12,7 +12,7 @@
   list-style-type: none;
 }
 
-.win-card {
+.win-card-1 {
   background-color: #ffffff33;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .win-card {
+  .win-card-1 {
     background-color: #ffffff33;
     display: flex;
     flex-direction: column;
@@ -41,20 +41,20 @@
   }
 }
 
-.winning {
+.winnin-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.won-heading {
+.won-heading-1 {
   font-weight: bold;
   color: #ffffff;
   font-family: Roboto;
 }
 
-.span {
+.span-1 {
   color: #9796f0;
   font-weight: bold;
 }
@@ -146,7 +146,7 @@
     width: 312px;
     margin-left: 24px;
     margin-right: 24px;
-    margin-top: 48px;
+    /* margin-top: 48px; */
   }
 
   .trigger-button {

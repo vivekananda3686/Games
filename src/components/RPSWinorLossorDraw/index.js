@@ -14,17 +14,17 @@ const RPSWinorLossorDraw = props => {
         <div className="each-player">
           <h1 className="player-header">YOU</h1>
           <img
-            className="each-player-choice"
             src={userChoice}
             alt="your choice"
+            className="each-player-choice"
           />
         </div>
         <div className="each-player">
           <h1 className="player-header">OPPONENT</h1>
           <img
-            className="each-player-choice"
             src={robotChoice}
             alt="opponent choice"
+            className="each-player-choice"
           />
         </div>
       </div>

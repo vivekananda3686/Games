@@ -1,4 +1,4 @@
-.game-item-name {
+/* .game-item-name {
   margin: 30px;
 }
 
@@ -23,4 +23,25 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+} */
+
+
+
+.games-main-container {
+  /* You can add additional styles if needed */
+}
+
+.game-item-name {
+  margin: 30px;
+}
+
+.game-image {
+  height: 40vh;
+  width: 30vw;
+}
+
+.game-button {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
 }
